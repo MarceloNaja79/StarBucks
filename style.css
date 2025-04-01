@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+
+
+button {
+    background-color: #017142;
+    /* Cor do Fundo */
+    color: white;
+    /* Cor do Texto do Botão */
+    padding: 10px;
+    border: none;
+    /* Tira a Borda do Botão*/
+    border-radius: 40px;
+    /* Arredondamento das Bordas */
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    /* Tira a Seta e Coloca a Mãozinha no Lugar */
+}
+
+/* Efeito para o mudar a cor do Botão quando passar o mouse encima */
+button:hover {
+    background-color: #059257
+}
+
+
+
+
+
+
+
+body {
+    padding-top: 30px;
+    /* Espaçamento Interno*/
+    padding-left: 100px;
+    padding-right: 80px;
+padding-bottom: 30px;
+}
+
+.Conteudo {
+    width: 100%;
+    /* Largura*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.Textos {
+    width: 700px;
+
+}
+
+h2 {
+    color: #333333;
+    /* Define a Cor do Texto */
+    font-size: 60px;
+    /* Define o Tamanho do Texto*/
+    font-weight: 600;
+    /* Define a Grosura do Texto*/
+margin-bottom: 50px;
+}
+
+span {
+    color: #017143;
+    font-size: 70px;
+    font-weight: 900;
+
+}
+
+p {
+    font-size: 20px;
+
+}
+
+.logo {
+    width: 70px;
+
+}
+
+.Menu {
+    display: flex;
+    position: absolute;
+    margin-bottom: 500px;
+    margin-left: 30%;
+
+}
+
+.botao-menu {
+    width: 80px;
+    cursor: pointer;
+    margin: 30px;
+    transition: 0.70s;
+    /* tempo q leva para movimentar os botoes */
+
+
+}
+
+.botao-menu:hover {
+    transform: translateY(-25px);
+
+}
+
+
+
+
+
+.copo {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 250px;
+
+
+
+}
+
+.circulo {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #017142;
+    clip-path: circle(600px at right 800px);
+
+}
