@@ -16,3 +16,5 @@ contém informações de direitos autorais.
 ## Conclusão
 
 Com esse código básico, você terá uma página simples que imita a estética do Starbucks. Claro, você pode expandir isso adicionando mais seções, imagens e estilos para torná-la mais parecida com o site real. 
+
+<h3> Fique avontade para acessar minha primeira page <a href=https://primeiro-marcelonaja.netlify.app/ />Clique aqui</h3>
